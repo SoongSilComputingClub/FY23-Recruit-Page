@@ -11,6 +11,37 @@
   --bodybackground-color: lightgray;
 }
 
+#header {
+  display: flex;
+  background: lightgray;
+  /* background: rgb(116, 120, 125); */
+  height: 95vh;
+}
+
+.header-main {
+  text-align: center;
+  margin: auto;
+}
+
+.header-text {
+  font-size: 4.8rem;
+  font-weight: 800;
+}
+
+
+
+#nav {
+  background: var(--background-color);
+  height: 5vh;
+  position: sticky;
+  top: 0;
+}
+
+#content {
+  background: var(--accent-color);
+  height: 300vh;
+}
+
 body { 
   margin: 0;
   background-color: var(--bodybackground-color);

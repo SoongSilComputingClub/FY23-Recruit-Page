@@ -6,40 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Button.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2f82bb8656.js" crossorigin="anonymous"></script>
     <script src="js/main.js" defer> </script>
-    <title>Nav Bar</title>
+    <title>SSCC</title>
   </head>
 
   <body>
-    <nav class="navbar">
+    <div id="header">
+      <div class="header-main">
+        <span class="header-text">
+          Soong Sil
+          <br>
+          Computing Club
+          <br>
+        </span>
 
-      <div class="navbar__logo">
-        <picture>
-          <source class = "SSCC_Logo" media="(min-width: 775px)" srcset="images/SSCC_RGB(152,187,201).png">
-          <img class = "SSCC_Logo" src="images/SSCC_White.png">
-        </picture>
-        <!-- <i class="fas fa-blog"></i> -->
-        <a href="">SSCC</a>
       </div>
+    </div>
+    <div id="nav">
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <picture>
+            <source class = "SSCC_Logo" media="(min-width: 775px)" srcset="images/SSCC_RGB(152,187,201).png">
+            <img class = "SSCC_Logo" src="images/SSCC_White.png">
+          </picture>
+          <!-- <i class="fas fa-blog"></i> -->
+          <a href="">SSCC</a>
+        </div>
 
-      <ul class="navbar__menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Benefit</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+        <ul class="navbar__menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Study">Study</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
 
-      <ul class="navbar__icons">
-        <li><i class="fab fa-google"></i></li>
-        <li><i class="fab fa-slack"></i></li>
-      </ul>
-      
-      <a href="#" class="navbar__toggleBtn">
-        <i class="fas fa-hamburger"></i>
-      </a>
-    </nav>
+        <ul class="navbar__icons">
+          <li><i class="fab fa-google"></i></li>
+          <li><i class="fab fa-slack"></i></li>
+        </ul>
+        
+        <a href="#a" class="navbar__toggleBtn">
+          <i class="fas fa-hamburger"></i>
+        </a>
+      </nav>
+    </div>
+    <div id="content">content</div>
   </body>
 </html>
