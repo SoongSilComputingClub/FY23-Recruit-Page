@@ -24,11 +24,10 @@
 }
 
 .header-text {
+  color: white;
   font-size: 4.8rem;
   font-weight: 800;
 }
-
-
 
 #nav {
   background: var(--background-color);
