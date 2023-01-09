@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f82bb8656.js" crossorigin="anonymous"></script>
+    <script src="test.js" defer> </script>
+    <title>Nav Bar</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+
+      <div class="navbar__logo">
+        <picture>
+          <source class = "SSCC_Logo" media="(min-width: 775px)" srcset="SSCC_RGB(152,187,201).png">
+          <img class = "SSCC_Logo" src="SSCC_White.png">
+        </picture>
+        <!-- <i class="fas fa-blog"></i> -->
+        <a href="">SSCC</a>
+      </div>
+
+      <ul class="navbar__menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Benefit</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <ul class="navbar__icons">
+        <li><i class="fab fa-google"></i></li>
+        <li><i class="fab fa-slack"></i></li>
+      </ul>
+      
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fas fa-hamburger"></i>
+      </a>
+    </nav>
+  </body>
+</html>

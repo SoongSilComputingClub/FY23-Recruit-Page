@@ -1,0 +1,120 @@
+:root {
+  --text-color: rgb(240, 244, 245);
+  --background-color: rgb(38, 51, 67);
+  /* --background-color: #263343; */
+  --accent-color:	white;
+  /* --accent-color:	rgb(255,165,0); */
+  --hober-color: rgb(76, 90, 105);
+  /* --hober-color: rgb(146, 153, 161); */
+  /* --hober-color: #6d7278; */
+  --icons-color: rgb(152, 187, 201);
+  --bodybackground-color: lightgray;
+}
+
+body { 
+  margin: 0;
+  background-color: var(--bodybackground-color);
+  font-family: 'STIX Two Math';
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 8px 12px;
+  font-family: 'STIX Two Math';
+}
+
+.navbar__logo i {
+  color: var(--accent-color);
+  padding-left: 0;
+}
+
+.SSCC_Logo {
+  height: 15px;
+  padding-left: 0;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 30px;
+}
+
+.navbar__menu li:hover {
+  background-color: var(--hober-color);
+  border-radius: 3px;
+}
+
+.navbar__icons {
+  list-style: none;
+  display: None;
+  /* display: flex; */
+  color: var(--icons-color);
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__icons li {
+  padding: 8px 12px;
+  margin: 0;
+}
+
+.navbar__toggleBtn  {
+  display: none;
+  color: var(--accent-color);
+  position: absolute;
+  right: 15px;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 775px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar__toggleBtn  {
+    display: block;
+    color: var(--accent-color);
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+  }
+
+  .navbar__menu.active,
+  .navbar__icons.active {
+    display: flex;
+  }
+}
