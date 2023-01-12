@@ -33,6 +33,29 @@
   border-radius:0
 }
 
+/* navi 버튼 크기 설정*/
+.btn-floating.btn-large {
+  width: 56px;
+  height: 56px
+}
+.btn-floating.btn-large i {
+  line-height: 56px
+}
+button.btn-floating {
+  border: none
+}
+
+
+/* 눌렀을 때 뜨는 창 */
+.fixed-action-btn {
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 998
+}
+
 /* 눌렀을 때 뜨는 창 hover 설정 */
 .btn-floating.instagram:hover {
   background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4)
@@ -55,29 +78,6 @@
 }
 .btn-floating.googleform:hover {
   background: linear-gradient(45deg, #5e36b2, #7143b9, #673fb3)
-}
-
-/* navi 버튼 크기 설정*/
-.btn-floating.btn-large {
-  width: 56px;
-  height: 56px
-}
-.btn-floating.btn-large i {
-  line-height: 56px
-}
-button.btn-floating {
-  border: none
-}
-
-
-/* 눌렀을 때 뜨는 창 */
-.fixed-action-btn {
-  position: fixed;
-  right: 23px;
-  bottom: 23px;
-  padding-top: 15px;
-  margin-bottom: 0;
-  z-index: 998
 }
 
 /* 눌렀을 때 보이도록 설정 */
