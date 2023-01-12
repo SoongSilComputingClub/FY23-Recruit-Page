@@ -38,6 +38,7 @@
   background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4)
 }
 .btn-floating.facebook:hover {
+  transition: .5s;
   background-color: #3b5998
 }
 .fa-solid.fa-comment-sms {
@@ -49,6 +50,7 @@
   color: #3A1D1D
 }
 .btn-floating.kakao:hover {
+  transition: .5s;
   background-color: #F7E600
 }
 .btn-floating.googleform:hover {
