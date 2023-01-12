@@ -9,7 +9,7 @@
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: black;
+  background-color: rgb(38, 51, 67);
   border-radius: 50%;
   transition: .5s;
   cursor: pointer;
