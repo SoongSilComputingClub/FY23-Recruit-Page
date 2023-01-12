@@ -27,7 +27,7 @@
 }
 
 .btn-floating:hover {
-  background-color: #26a69a
+  background-color: rgb(152, 187, 201)
 }
 .btn-floating:before {
   border-radius:0
