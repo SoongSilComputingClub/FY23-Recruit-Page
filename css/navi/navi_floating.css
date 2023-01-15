@@ -1,4 +1,39 @@
- /* 버튼 생성*/
+.textext {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-19%);
+}
+.textext:hover {
+  transform: translateY(-50%);
+  font-size: 15px;
+}
+
+
+.btn-floating.test:hover {
+  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
+}
+/* .fa-brands.fa-instagram {
+  font-size: 20px
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /* 클릭시 버튼 생성*/
 .btn-floating {
   display: inline-block;
   color: #fff;
@@ -7,7 +42,6 @@
   z-index: 1;
   width: 40px;
   height: 40px;
-  line-height: 40px;
   padding: 0;
   background-color: rgb(38, 51, 67);
   border-radius: 50%;
@@ -58,7 +92,10 @@ button.btn-floating {
 
 /* 눌렀을 때 뜨는 창 hover 설정 */
 .btn-floating.instagram:hover {
-  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4)
+  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
+  border-radius: 40px;
+  width: 100px;
+  height: 40px;
 }
 .btn-floating.facebook:hover {
   transition: .5s;
