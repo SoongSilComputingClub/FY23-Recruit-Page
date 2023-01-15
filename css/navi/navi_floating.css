@@ -64,7 +64,7 @@
   background-color: rgb(152, 187, 201)
 }
 .btn-floating:before {
-  border-radius:0
+  border-radius:0;
 }
 
 /* navi 버튼 크기 설정*/
@@ -92,29 +92,43 @@ button.btn-floating {
 
 /* 눌렀을 때 뜨는 창 hover 설정 */
 .btn-floating.instagram:hover {
+  transition: .5s;
   background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
   border-radius: 40px;
-  width: 100px;
+  width: 200px;
   height: 40px;
 }
 .btn-floating.facebook:hover {
   transition: .5s;
-  background-color: #3b5998
+  background-color: #3b5998;
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
 }
 .fa-solid.fa-comment-sms {
   transition: .5s;
-  color: white
+  color: white;
 }
 .fa-solid.fa-comment-sms:hover {
   transition: 1.1s;
-  color: #3A1D1D
+  color: #3A1D1D;
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
 }
 .btn-floating.kakao:hover {
   transition: .5s;
-  background-color: #F7E600
+  background-color: #F7E600;
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
 }
 .btn-floating.googleform:hover {
-  background: linear-gradient(45deg, #5e36b2, #7143b9, #673fb3)
+  transition: .5s;
+  background: linear-gradient(45deg, #5e36b2, #7143b9, #673fb3);
+  border-radius: 40px;
+  width: 200px;
+  height: 40px;
 }
 
 /* 눌렀을 때 보이도록 설정 */
