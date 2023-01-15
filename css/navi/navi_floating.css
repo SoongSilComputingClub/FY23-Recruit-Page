@@ -1,38 +1,3 @@
-.textext {
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-19%);
-}
-.textext:hover {
-  transform: translateY(-50%);
-  font-size: 15px;
-}
-
-
-.btn-floating.test:hover {
-  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
-  border-radius: 40px;
-  width: 200px;
-  height: 40px;
-}
-/* .fa-brands.fa-instagram {
-  font-size: 20px
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
  /* 클릭시 버튼 생성*/
 .btn-floating {
   display: inline-block;
@@ -91,43 +56,54 @@ button.btn-floating {
 }
 
 /* 눌렀을 때 뜨는 창 hover 설정 */
+/* .textbox {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+.textbox:hover {
+  font-size: 15px;
+}
+.textbox.instagram {
+  transform: translateY(-19%);
+}
+.textbox.instagram:hover {
+  transform: translateY(-50%);
+} */
 .btn-floating.instagram:hover {
   transition: .5s;
   background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
   border-radius: 40px;
-  width: 200px;
+  width: 100px;
   height: 40px;
 }
 .btn-floating.facebook:hover {
   transition: .5s;
   background-color: #3b5998;
   border-radius: 40px;
-  width: 200px;
+  width: 100px;
   height: 40px;
 }
 .fa-solid.fa-comment-sms {
-  transition: .5s;
+  transition: .1s;
   color: white;
 }
 .fa-solid.fa-comment-sms:hover {
-  transition: 1.1s;
+  transition: 0.1s;
   color: #3A1D1D;
-  border-radius: 40px;
-  width: 200px;
-  height: 40px;
 }
 .btn-floating.kakao:hover {
   transition: .5s;
   background-color: #F7E600;
   border-radius: 40px;
-  width: 200px;
+  width: 100px;
   height: 40px;
 }
 .btn-floating.googleform:hover {
   transition: .5s;
   background: linear-gradient(45deg, #5e36b2, #7143b9, #673fb3);
   border-radius: 40px;
-  width: 200px;
+  width: 100px;
   height: 40px;
 }
 
