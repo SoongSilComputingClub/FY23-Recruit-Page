@@ -38,6 +38,8 @@
 }
 
 #About {
+  text-align: center;
+  padding-top: 150px;
   background: var(--accent-color);
   height: 300vh;
 }

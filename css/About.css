@@ -1,14 +1,40 @@
-.About_Text {
-  margin-top: 15vh;
+.About_Content {
+  display: inline-grid;
+  grid-template-columns: 200px 1000px;
+  grid-template-rows: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
   text-align: center;
-  background-color: white;
+}
+
+.About_Text {
+  grid-column: 1 / 3;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
   font-size: 70px;
   font-weight: bold;
 }
 
-.About_Content {
-  height: 40vh;
-}
 .About_Logo {
-  height: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.About_Logo_image {
+  height: 150px;
+}
+
+.About_SSCC {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
 }
