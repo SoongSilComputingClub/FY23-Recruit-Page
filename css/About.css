@@ -1,0 +1,14 @@
+.About_Text {
+  margin-top: 15vh;
+  text-align: center;
+  background-color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.About_Content {
+  height: 40vh;
+}
+.About_Logo {
+  height: 200px;
+}

@@ -2,7 +2,8 @@
   --text-color: rgb(240, 244, 245);
   --background-color: rgb(38, 51, 67);
   /* --background-color: #263343; */
-  --accent-color:	white;
+  --accent-color:	brown;
+  /* --accent-color:	white; */
   /* --accent-color:	rgb(255,165,0); */
   --hober-color: rgb(76, 90, 105);
   /* --hober-color: rgb(146, 153, 161); */
@@ -36,7 +37,7 @@
   top: 0;
 }
 
-#content {
+#About {
   background: var(--accent-color);
   height: 300vh;
 }
