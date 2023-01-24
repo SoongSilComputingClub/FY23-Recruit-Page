@@ -1,9 +1,11 @@
 .About_Content {
   display: inline-grid;
-  grid-template-columns: 200px 1000px;
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
   background-color: #2196F3;
-  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  place-items: center;
 }
 
 .grid-item {
@@ -15,26 +17,26 @@
 }
 
 .About_Text {
-  grid-column: 1 / 3;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
   text-align: center;
   font-size: 70px;
   font-weight: bold;
 }
 
 .About_Logo {
+  grid-column: 2 / 5;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
 .About_Logo_image {
-  height: 150px;
+  max-height: 280px;
 }
 
 .About_SSCC {
+  grid-column: 5 / 8;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 15px;
   text-align: center;
+  font-size: 15pt;
+  font-weight: bold;
 }
