@@ -30,6 +30,12 @@
   font-weight: 800;
 }
 
+body { 
+  margin: 0;
+  background-color: var(--bodybackground-color);
+  font-family: 'STIX Two Math';
+}
+
 #nav {
   background: var(--background-color);
   height: 5vh;
@@ -41,13 +47,14 @@
   text-align: center;
   padding-top: 150px;
   background: var(--accent-color);
-  height: 300vh;
+  height: 100vh;
 }
 
-body { 
-  margin: 0;
-  background-color: var(--bodybackground-color);
-  font-family: 'STIX Two Math';
+#Active {
+  text-align: center;
+  padding-top: 150px;
+  background-color: rgb(52, 64, 79);;
+  height: 100vh;
 }
 
 a {
