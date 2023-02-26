@@ -1,6 +1,6 @@
 #Recruit_outer_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 0.7fr 0.5fr 0.7fr 0.5fr 0.7fr 1fr 1fr 1fr 1fr 1fr;
   /* grid-gap: 8px; */
 }
 #Recruit_outer_grid > div {
@@ -34,4 +34,9 @@
   border: 10px solid rgb(163, 151, 198);
   border-radius: 50%;
   background-color: white;
+}
+
+.fa-solid {
+  padding-top: 30px;
+  font-size: 40px;
 }
