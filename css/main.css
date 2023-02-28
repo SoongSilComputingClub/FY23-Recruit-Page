@@ -48,7 +48,6 @@ body {
   padding-top: 150px;
   background-color: rgb(52, 64, 79);
   /* background: var(--accent-color); */
-  height: 100vh;
 }
 
 #Active {

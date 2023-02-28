@@ -19,7 +19,7 @@
 #Active_outer_grid > div {
   /* background-color: limegreen;
   color: rgb(255, 255, 255); */
-  font-size: 1.4vw;
+  font-size: 1em;
   font-weight: bolder;
   padding: 8px;
 }
