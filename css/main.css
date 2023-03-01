@@ -1,6 +1,6 @@
 :root {
   --text-color: rgb(240, 244, 245);
-  --background-color: rgb(38, 51, 67);
+  --background-color: #0F0D35;
   /* --background-color: #263343; */
   --accent-color:	brown;
   /* --accent-color:	white; */
@@ -14,8 +14,7 @@
 
 #header {
   display: flex;
-  background: lightgray;
-  /* background: rgb(116, 120, 125); */
+  background: #EAEBE7;
   height: 95vh;
 }
 
@@ -25,7 +24,7 @@
 }
 
 .header-text {
-  color: white;
+  color: #0F0D35;
   font-size: 4.8rem;
   font-weight: 800;
 }
@@ -59,9 +58,15 @@ body {
 }
 
 #Recruit {
-  height: 100vh;
+  height: 90vh;
   padding-top: 300px;
   background-color: rgb(52, 64, 79);
+}
+
+footer {
+  height: 10vh;
+  margin: 0px 150px;
+  bottom: 0;
 }
 
 a {

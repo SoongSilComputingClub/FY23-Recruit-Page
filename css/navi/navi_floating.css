@@ -84,11 +84,11 @@ button.btn-floating {
   width: 100px;
   height: 40px;
 }
-.fa-solid.fa-comment-sms {
+.fa-regular.fa-comments {
   transition: .1s;
   color: white;
 }
-.fa-solid.fa-comment-sms:hover {
+.fa-regular.fa-comments:hover {
   transition: 0.1s;
   color: #3A1D1D;
 }
