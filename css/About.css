@@ -2,7 +2,7 @@
   display: inline-grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: auto;
-  background-color: #2196F3;
+  background-color: rgb(52, 64, 79);
   padding-top: 100px;
   padding-bottom: 50px;
   place-items: center;
@@ -24,9 +24,8 @@
 
 .About_Logo {
   grid-column: 2 / 5;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
 }
+
 .About_Logo_image {
   max-height: 280px;
 }
@@ -34,7 +33,6 @@
 .About_SSCC {
   grid-column: 5 / 8;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   text-align: center;
   font-size: 15pt;
@@ -46,7 +44,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    background-color: wheat;
+    background-color: rgb(52, 64, 79);
   }
 
   .About_Logo {
