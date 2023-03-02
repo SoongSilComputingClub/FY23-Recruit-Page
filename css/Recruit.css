@@ -1,8 +1,9 @@
 #Recruit_outer_grid {
+  grid-template-rows: 1fr 1fr;
   padding-top: 5%;
   display: grid;
   grid-template-columns: 50% 50%;
-  column-gap: 5%;
+  /* column-gap: 5%; */
   width: 100%
 }
 
@@ -11,6 +12,7 @@
   text-align: center;
   grid-template-columns: 0.7fr 0.5fr 0.7fr 0.5fr 0.7fr;
   grid-template-rows: 1fr 1fr;
+  padding-right: 2.5%;
 }
 #Recruit_inner_grid1 > div {
   font-size: 1rem;
@@ -31,6 +33,7 @@
   margin-inline: auto;
   display: inline-block;
   text-align: center;
+  padding-left: 2.5%;
 }
 
 .circle {
