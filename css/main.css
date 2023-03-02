@@ -51,13 +51,13 @@ body {
 
 #Active {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 150px;
   background-color: rgb(52, 64, 79);
 }
 
 #Recruit {
   height: 90vh;
-  padding-top: 300px;
+  padding-top: 150px;
   background-color: rgb(52, 64, 79);
 }
 
