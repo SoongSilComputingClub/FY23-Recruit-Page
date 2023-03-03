@@ -19,6 +19,7 @@
   display: grid;
   grid-template-rows: 0.1fr 0.1fr 0.1fr;
   grid-template-columns: 0.2fr 1fr;
+  padding-bottom: 20px;
   /* grid-gap: 5px; */
 }
 #Active_inner_grid > div {
@@ -43,6 +44,7 @@
   padding: 7px;
   position: inherit;
   width: 90%;
+  padding-bottom: 20px;
 }
 
 .bar {
