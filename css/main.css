@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}   
+
 :root {
   --text-color: rgb(240, 244, 245);
   --background-color: #0F0D35;
@@ -32,7 +39,7 @@
 body { 
   margin: 0;
   background-color: var(--bodybackground-color);
-  font-family: 'STIX Two Math';
+  font-family: 'BMJUA', sans-serif;
 }
 
 #nav {
