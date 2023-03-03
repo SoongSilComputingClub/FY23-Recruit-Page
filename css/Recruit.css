@@ -1,8 +1,8 @@
 #Recruit_outer_grid {
-  grid-template-rows: 1fr 1fr;
   padding-top: 5%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   /* column-gap: 5%; */
   width: 100%
 }
@@ -33,7 +33,6 @@
   margin-inline: auto;
   display: inline-block;
   text-align: center;
-  padding-left: 2.5%;
 }
 
 .circle {
@@ -76,6 +75,8 @@
 }
 
 .Recruit_content {
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: start;
   font-size: 1.2rem;
   font-weight: bolder;

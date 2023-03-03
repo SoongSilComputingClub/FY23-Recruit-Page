@@ -56,6 +56,8 @@ body {
 }
 
 #Recruit {
+  padding-left: 5%;
+  padding-right: 5%;
   height: 90vh;
   padding-top: 150px;
   background-color: rgb(52, 64, 79);
