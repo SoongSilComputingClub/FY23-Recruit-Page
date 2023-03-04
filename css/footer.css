@@ -32,7 +32,8 @@
 #Footer_second {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding-left: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 
