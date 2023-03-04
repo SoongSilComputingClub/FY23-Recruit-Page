@@ -35,11 +35,34 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   text-align: center;
-  font-size: 15pt;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 250;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 350px) {
+  .About_Content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgb(52, 64, 79);
+  }
+
+  .About_Logo {
+    grid-row: 1/1;
+    grid-column: 1/1;
+  }
+  .About_Logo_image {
+    height: 200px;
+  }
+
+  .About_SSCC {
+    grid-row: 2/2;
+    grid-column: 1/1;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 1100px) {
   .About_Content {
     display: grid;
     grid-template-columns: 1fr;
