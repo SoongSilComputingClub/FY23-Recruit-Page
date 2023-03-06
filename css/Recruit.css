@@ -1,9 +1,8 @@
 #Recruit_New_Member {
   text-align: center;
   font-size: 3rem;
-  font-weight: bolder;
   padding-bottom: 200px;
-  color: rgb(195, 200, 207);
+  color: white;
 }
 
 #Recruit_outer_grid {
@@ -28,7 +27,7 @@
 }
 
 .Recruit_text{
-  color: rgb(195, 200, 207);
+  color: white;
   font-size: 2rem;
   line-height: 80px;
   font-weight: 500;
@@ -51,7 +50,7 @@
   margin: 0 auto;
   width: 80px;
   height: 80px;
-  border: 10px solid rgb(195, 200, 207);
+  border: 10px solid orange;
   border-radius: 50%;
   background-color: white;
   text-align: center;
