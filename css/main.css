@@ -79,7 +79,11 @@ a {
   color: var(--text-color);
 }
 
-
+#More {
+  text-align: center;
+  padding-bottom: 150px;
+  background-color: rgb(52, 64, 79);
+}
 
 @media (max-width: 500px) {
   .header-text {
