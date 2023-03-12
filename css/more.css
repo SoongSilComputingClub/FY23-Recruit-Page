@@ -1,28 +1,27 @@
-.Active_text {
+.More_text {
   text-align: center;
   font-size: 70px;
   color: white;
+  padding-top: 10%;
 }
 
-#Active_outer_grid {
+#More_outer_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* grid-gap: 8px; */
+  grid-template-rows: 1fr 1fr 1fr;
 }
-#Active_outer_grid > div {
+#More_outer_grid > div {
   font-weight: bolder;
   padding: 8px;
 }
-#Active_inner_grid {
+#More_inner_grid {
   background-color: rgb(235, 235, 235);
   display: grid;
   grid-template-rows: 0.1fr 0.1fr 0.1fr;
   grid-template-columns: 0.2fr 1fr;
   padding-bottom: 20px;
-  /* grid-gap: 5px; */
 }
-#Active_inner_grid > div {
-  /* background: white; */
+#More_inner_grid > div {
   color: black;
   padding: 8px;
 }
@@ -61,39 +60,61 @@
   text-align: start;
   grid-column: 2;
   grid-row: 3;
-  line-height: 20px;
+  line-height: 140%;
   font-size: 1.5rem;
   font-weight: 550;
+  width: 85%;
 }
 
-
-
-
-.Active_card body {
+.More_card body {
   background-color: grey;
 }
 
 .card-container {
-  /* background-color: white; */
   border-radius: 5px;
-  /* color: #83b8cd; */
   box-shadow: 0px 10px 20px -10px black;
   padding-top: 10px;
   text-align: center;
   vertical-align: middle;
-  margin: 5%;
+  margin: 15%;
 }
 
-.Active_Content {
+.More_Content {
   text-align: center;
   margin: auto;
 }
 
+#tags {
+  color: gray;
+}
 @media (max-width: 1100px) {
-  #Active_outer_grid {
+  #More_outer_grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+  }
+
+  .Active-P {
+    text-align: start;
+    grid-column: 2;
+    grid-row: 3;
+    line-height: 140%;
+    font-size: 3.5vw;
+    font-weight: 550;
+    width: 85%;
+  }
+
+  .card-container {
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px black;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5%;
+  }
+
+  .More_text {
+    font-size: 7vw;
   }
 
 }

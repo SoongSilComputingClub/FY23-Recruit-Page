@@ -17,10 +17,9 @@
 } */
 
 .About_Text {
-  color: rgb(195, 200, 207);
+  color: white;
   text-align: center;
   font-size: 70px;
-  font-weight: bold;
 }
 
 .About_Logo {
@@ -38,6 +37,7 @@
   text-align: center;
   font-size: 1.3rem;
   font-weight: 250;
+  border-radius: 15px;
 }
 
 @media (max-width: 350px) {
@@ -79,5 +79,6 @@
   .About_SSCC {
     grid-row: 2/2;
     grid-column: 1/1;
+    border-radius: 0;
   }
 }
